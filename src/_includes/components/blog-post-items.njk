@@ -1,0 +1,39 @@
+{% for post in postslist %}
+    <li class="c-post-item">
+        <article class="{% if includeImage and post.data.image %} l-post-grid--image {% else %} l-post-grid {% endif %}">
+            {% if includeImage and post.data.image %}
+                <picture class="l-post-grid_image">
+                    <img src="/static/images/{{ post.data.image }}">
+                </picture>
+            {% endif %}
+            <div class="l-post-grid_title">
+                <a href="{{ post.url | url }}" class="c-gradient-link">
+                    <h3 class="c-post-item_title">{{ post.data.title }}</h3>
+                </a>
+            </div>
+            <p class="c-post-item_desc l-post-grid_desc">{{ post.data.description }}</p>
+            <div class="l-post-grid_meta c-post-item_meta">
+                {% if locale == 'en' %}
+                    <time class="c-post-item_date" datetime="{{ post.date | htmlDateString }}">
+                        {{ post.date | en_readableDate }}
+                    </time>
+                {% else %}
+                    <time class="c-post-item_date" datetime="{{ post.date | htmlDateString }}">
+                        {{ post.date | ru_readableDate }}
+                    </time>
+                {% endif %}
+                {% if post.data.tags %}
+                    <span> | </span>
+                    <ul class="l-post-grid_tags">
+                        {% for tag in post.data.tags | filterTagList %}
+                            <li class="c-post-item_tag">
+                                {% set tagurl = "/tags/" + tag | slugify  %}
+                                <a href="{{ tagurl | url  }}/" class="c-underline-link">{{ tag }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+        </article>
+    </li>
+{% endfor %}

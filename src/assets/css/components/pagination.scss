@@ -1,0 +1,13 @@
+.c-pagination {
+    margin-top: 2rem;
+    background: var(--color-gray-200);
+    color: var(--color-text);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    &_list {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+}

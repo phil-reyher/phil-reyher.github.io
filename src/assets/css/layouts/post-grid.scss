@@ -1,0 +1,33 @@
+.l-post-grid {
+    display: grid;
+    grid-template-areas:
+        "title"
+        "desc"
+        "meta";
+    gap: 0.5rem;
+
+    &--image {
+        grid-template-rows: auto repeat(3, 1fr);
+        grid-template-areas:
+            "image"
+            "title"
+            "date"
+            "tags";
+    }
+
+    &_tags {
+        grid-area: tags;
+    }
+
+    &_title {
+        grid-area: title;
+    }
+
+    &_meta {
+        grid-area: meta;
+    }
+
+    &_image {
+        grid-area: image;
+    }
+}

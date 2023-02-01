@@ -1,0 +1,44 @@
+{% set currentUrl = page.url | replace('/', '') %}
+<!doctype html>
+<html lang="{{ locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        {% if currentUrl %}
+            <title>{{ title or metadata[locale][currentUrl].title }}</title>
+            <meta name="description" content="{{ description or metadata[locale][currentUrl].description }}">
+        {% else %}
+            <title>{{ title or metadata[locale].title }}</title>
+            <meta name="description" content="{{ description or metadata[locale].description }}">
+        {% endif %}
+
+        {% set appleTouchIcon = "/static/apple-touch-icon.png" | url %}
+        {% set favicon32 = "/static/favicon-32x32.png" | url %}
+        {% set favicon16 = "/static/favicon-16x16.png" | url %}
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ appleTouchIcon }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon32 }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ favicon16 }}">
+
+        {% if projEnv.eleventy === "production" %}
+            {% set link = "/assets/css/" + csshash.indexCSS %}
+            <link rel="preload" href="{{ link | url }}" as="style" />
+            <link rel="stylesheet" href="{{ link  | url }}" type="text/css" />
+        {% else %}
+            <link rel="stylesheet" href="/assets/css/index.css" type="text/css" />
+        {% endif %}
+        <link rel="alternate" href="{{ metadata[locale].feed.path | url }}" type="application/atom+xml" title="{{ metadata[locale].title }}">
+        <link rel="alternate" href="{{ metadata[locale].jsonfeed.path | url }}" type="application/json" title="{{ metadata[locale].title }}">
+    </head>
+    <body class="s-common s-light-theme default-layout">
+        {% include "components/header.njk" %}
+
+        <main class="{% if templateClass %}{{ templateClass }}{% endif %}">
+            {{ content | safe }}
+        </main>
+
+        {% include "components/footer.njk" %}
+
+        <script type="module" src="{{ '/assets/js/bundle.js' | url }}"></script>
+    </body>
+</html>

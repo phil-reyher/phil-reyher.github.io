@@ -1,0 +1,9 @@
+@forward "../components/post";
+@forward "../layouts/post-grid";
+
+.p-archive {
+    width: 100%;
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+    padding: 1rem;
+}

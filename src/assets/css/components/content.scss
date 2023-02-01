@@ -1,0 +1,145 @@
+.c-content {
+    margin-top: 0.5rem;
+    flex: 1;
+
+    h {
+        &1 {
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        &2 {
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        &3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        &4 {
+            margin-top: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        &5 {
+            margin-top: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        &6 {
+            margin-top: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    .icon-tabler-link {
+        width: 1.2rem;
+        height: 1.2rem;
+        color: var(--color-text);
+        vertical-align: middle;
+    }
+
+    a {
+        text-decoration: underline;
+        color: var(--color-text);
+
+        &:hover {
+            text-decoration-color: var(--color-extra);
+            background-color: var(--color-gray-200);
+        }
+
+        &:visited {
+            text-decoration: underline;
+            color: var(--color-text);
+
+            &:hover {
+                text-decoration-color: var(--color-extra);
+                background-color: var(--color-gray-200);
+            }
+        }
+    }
+
+    a.direct-link {
+        visibility: collapse;
+        &:after {
+            content: none;
+        }
+        &:hover .icon-tabler-link {
+            color: hsla(0, 0%, 0%, 0.5);
+        }
+    }
+
+    h2:hover .direct-link {
+        visibility: visible;
+    }
+
+    code {
+        padding: 0.1rem 0.2rem;
+        border-radius: 0.25rem;
+        background: var(--color-accent);
+        color: var(--color-text);
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+    }
+
+    ol {
+        list-style-type: decimal;
+        padding-left: 1.5rem;
+    }
+
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    video  {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 30rem;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    blockquote {
+        padding-left: 1rem;
+        border-left: 4px solid var(--color-accent);
+    }
+
+    table {
+        table-layout: fixed;
+
+        thead {
+            tr {
+                background: var(--color-accent);
+            }
+            th {
+                padding: 0.25rem;
+            }
+        }
+        tbody {
+            tr {
+                &:nth-child(odd) {
+                    background-color: var(--color-gray-200);
+                }
+            }
+            td {
+                padding: 0.5rem;
+            }
+        }
+    }
+}

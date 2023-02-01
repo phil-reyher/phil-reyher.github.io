@@ -1,0 +1,14 @@
+@use "sass:map";
+@use "variables";
+
+@mixin media($screen) {
+    @media (min-width: map.get(variables.$breakpoints, $screen)) {
+        @content;
+    }
+}
+
+@mixin content-width() {
+    width: 100%;
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+}

@@ -1,0 +1,11 @@
+@use "../mixins";
+
+.p-tags {
+    @include mixins.content-width();
+
+    padding: 1rem;
+
+   &_link {
+       margin-top: 1rem;
+   }
+}
