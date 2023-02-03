@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSyntaxHighlight);
     eleventyConfig.addPlugin(pluginNavigation);
-    config.addPassthroughCopy("src/CNAME");
+    
 
     // https://www.11ty.dev/docs/data-deep-merge/
     eleventyConfig.setDataDeepMerge(true);
@@ -65,6 +65,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("static");
     eleventyConfig.addPassthroughCopy("./src/assets/css/prism.css");
+    eleventyConfig.addPassthroughCopy("./src/CNAME");
 
     const jsAssetsFiles = "./src/**/*.js"
     const cssAssetsFiles = "./src/assets/css/**/*.scss"
