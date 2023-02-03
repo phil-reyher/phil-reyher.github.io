@@ -6,11 +6,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.c-content {
-    text-align: left;
-    margin-top: 1.5rem;
+    &_content {
+        margin-top: 1.5rem;
+    }
 }
 
 .p-about_picture {
@@ -29,7 +27,7 @@
         margin-bottom: 1rem;
     } 
 
-    .c-content {
+    .p-about_content {
         margin-bottom: 1rem;
     } 
 }
