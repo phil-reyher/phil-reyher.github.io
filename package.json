@@ -8,13 +8,14 @@
         "cssmin": "node cssmin.js",
         "build": "npm-run-all clean hasher -p build:eleventy build:sass build:rollup",
         "build:github": "npm-run-all clean hasher -p build:eleventy:pathPrefix build:sass build:rollup",
-        "build:eleventy": "ELEVENTY_ENV=production eleventy",
-        "build:eleventy:pathPrefix": "ELEVENTY_ENV=production npx @11ty/eleventy --pathprefix='reyher.io'",
+        "build:eleventy": "ELEVENTY_ENV=production npx @11ty/eleventy",
+        "build:eleventy:pathPrefix": "ELEVENTY_ENV=production npx @11ty/eleventy",
         "build:sass": "sass src/assets/css/index.scss _site/assets/css/index.css && npm run cssmin",
         "build:rollup": "NODE_ENV=production rollup -c",
+
         "dev": "npm-run-all clean hasher -p dev:*",
         "dev:sass": "sass --watch src/assets/css/index.scss _site/assets/css/index.css",
-        "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --port=3000",
+        "dev:eleventy": "ELEVENTY_ENV=development npx @11ty/eleventy --serve --watch",
         "dev:rollup": "rollup -c -w",
         "debug": "DEBUG=* eleventy"
     },
