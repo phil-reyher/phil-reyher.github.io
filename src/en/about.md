@@ -6,5 +6,3 @@ eleventyNavigation:
     title: about
     order: 2
 ---
-
-![Profile](/static/profile.jpg)
