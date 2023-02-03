@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Eleventy starter</title>
+	<title>Philipp Reyher</title>
 	<subtitle>TODO</subtitle>
 	
 	<link href="https://example.com/phil-reyher.github.io/feed/en.feed.xml" rel="self"/>
@@ -8,8 +8,8 @@
 	<updated>2022-01-05T00:00:00Z</updated>
 	<id>TODO</id>
 	<author>
-		<name>Your name</name>
-		<email>example@mail.com</email>
+		<name>Philipp Reyher</name>
+		<email>philipp@reyher.io</email>
 	</author>
 	
 	<entry>

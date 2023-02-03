@@ -1,12 +1,12 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Eleventy starter",
+  "title": "Philipp Reyher",
   "language": "en",
   "home_page_url": "https://example.com",
   "feed_url": "https://example.com/feed/en.feed.json",
   "description": "TODO",
   "author": {
-    "name": "Your name",
+    "name": "Philipp Reyher",
     "url": "https://example.com"
   },
   "items": [{
