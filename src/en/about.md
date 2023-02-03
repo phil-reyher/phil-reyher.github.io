@@ -7,4 +7,4 @@ eleventyNavigation:
     order: 2
 ---
 
-TODO: write about yourself.
+![Profile](/static/profile.jpg)
