@@ -6,14 +6,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
     &_content {
         margin-top: 1.5rem;
     }
 }
 
-.p-about_picture {
+.p-about_ picture {
     width: 30%;
     align-self: flex-start;
+    text-align: center;
 }
 
 @media (max-width: 767px) {
