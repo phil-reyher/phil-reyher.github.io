@@ -7,19 +7,15 @@
 
 .p-about_picture {
     width: 30%;
-    align-self: center;
-    margin-bottom: 1rem;
-}
-
-.p-about_content {
-    margin-top: 1.5rem;
+    float: right;
     margin-bottom: 1rem;
 }
 
 @media (max-width: 767px) {
     .p-about_ picture {
         width: 80%;
-        align-self: center;;
+        margin: 0 auto;
+        align-self: center;
         margin-bottom: 1rem;
     } 
 }
