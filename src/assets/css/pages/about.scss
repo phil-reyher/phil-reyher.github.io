@@ -1,21 +1,30 @@
+@use "../components/link";
+
 .p-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     max-width: var(--max-content-width);
     margin: 0 auto;
     padding: 1rem;
+    &_content {
+    margin-top: 1.5rem;
+}
 }
 
 .p-about_picture {
-    width: 30%;
-    float: right;
+    align-self: center;
     margin-bottom: 1rem;
 }
 
 @media (max-width: 767px) {
-    .p-about_picture {
+.p-about {
+    grid-template-columns: 1fr;
+    }
+    .p-about_ picture {
         width: 80%;
-        margin: 0 auto;
         align-self: center;
         margin-bottom: 1rem;
-    } 
+        margin: 0 auto;
+    }
 }
