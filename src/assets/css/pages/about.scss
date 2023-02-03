@@ -3,23 +3,37 @@
     max-width: var(--max-content-width);
     margin: 0 auto;
     padding: 1rem;
-}
-
-.p-about_picture {
-    width: 80%;
-    align-self: center;
-    margin-bottom: 1rem;
-}
-
-.p-about_content {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-@media (max-width: 767px) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .p-about_content {
+    width: 70%;
+    margin-left: 1.5rem;
+  }
+  
+  .p-about_picture {
+    width: 30%;
+    align-self: flex-start;
+  }
+  
+  @media (max-width: 767px) {
+    .p-about {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .p-about_content {
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+  
     .p-about_ picture {
-        width: 80%;
-        align-self: center;
-        margin-bottom: 1rem;
-    } 
-}
+      width: 80%;
+      align-self: center;
+      margin-bottom: 1rem;
+    }
+  }
+  
