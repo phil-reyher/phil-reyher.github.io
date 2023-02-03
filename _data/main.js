@@ -1,10 +1,8 @@
 module.exports = {
     en: {
         welcome: "Welcome",
-        siteDescription: `<p>This is starter for <a class="c-text-link" href="https://www.11ty.dev/">eleventy ssg</a>.</p>
-                            <p>It's built with nunjuks and sass also it has rollup config for your js</p>
-<p>For site serving you can use <a class="c-text-link" href="https://caddyserver.com/">caddy</a>, <a class="c-text-link" href="https://nginx.org">nginx</a>
- or use <a class="c-text-link" href="https://vercel.com/">vercel</a> or <a class="c-text-link" href="https://www.netlify.com/">netlify</a></p>`,
+        siteDescription: `<p>On this website, I document my progress towards becoming a Data Scientist and showcase my learning and projects along the way.</p>
+                          <p>I mainly do this for myself but dearly hope that someone might find some insights</p>`,
         latest: 'latest',
         post: 'post',
         posts: 'posts',
