@@ -3,33 +3,23 @@
     max-width: var(--max-content-width);
     margin: 0 auto;
     padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-    &_content {
-        margin-top: 1.5rem;
-    }
 }
 
 .p-about_picture {
-    width: 30%;
-    align-self: flex-start;
-    text-align: center;
+    width: 80%;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.p-about_content {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 767px) {
-    .p-about {
-        flex-direction: column;
-    }
-
-    .p-about_picture {
+    .p-about_ picture {
         width: 80%;
         align-self: center;
-        margin-bottom: 1rem;
-    } 
-
-    .p-about_content {
         margin-bottom: 1rem;
     } 
 }
