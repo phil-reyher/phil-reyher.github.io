@@ -10,11 +10,14 @@
                 aria-label="{{ metadata[locale].source.label }}"
                 class="c-footer_icon c-icon-link c-icon-link--hover-extra"
                 href="{{ metadata[locale].source.link }}"
-            >
                 {% set label = metadata[locale].source.label %}
-                {% if label == 'github' %}
+                {% if label == 'GitHub' %}
                     {% include "icons/brand-github.svg" %}
-                {% elif label == 'gitlab' %}
+                {% if label2 == 'LinkedIn' %}
+                    {% include "icons/brand-gitlab.svg" %}
+                {% if label3 == 'Email me' %}
+                    {% include "icons/brand-gitlab.svg" %}
+                {% if label4 == 'Researchgate' %}
                     {% include "icons/brand-gitlab.svg" %}
                 {% endif %}
             </a>

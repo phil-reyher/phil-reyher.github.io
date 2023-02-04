@@ -17,8 +17,14 @@ module.exports = {
             url: `${url}/feed/en.feed.json`,
         },
         source: {
-            label: 'github',
-            link: 'https://github.com/moody-person/11ty-starter'
+            label: 'GitHub',
+            link: 'https://github.com/phil-reyher',
+            label2: 'LinkedIn',
+            link2:'',
+            label3: 'Email me',
+            link3:'mailto:preyher@uni-muenster.de',
+            label4: 'Researchgate',
+            link4:'',
         },
         author: {
             url,
