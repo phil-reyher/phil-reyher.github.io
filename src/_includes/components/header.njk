@@ -4,6 +4,7 @@
     </a>
     <nav role="navigation" class="c-nav">
         {% set navPages = collections.all | eleventyNavigation %}
+        {% set first = true %}
         {% macro renderNavListItem(entry) -%}
         <li class="c-nav-list_item{% if entry.url == page.url %} c-nav-list_item--active{% endif %}">
             {% if entry.url == page.url %}
@@ -13,14 +14,19 @@
             {% endif %}
             {%- if entry.children.length -%}
             <ul class="c-nav-list">
-            {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+                {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
             </ul>
             {%- endif -%}
         </li>
         {%- endmacro %}
-
         <ul class="c-nav-list">
-            {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+            {%- for entry in navPages %}
+                {% if not first %}
+                    {{ renderNavListItem(entry) }}
+                {% else %}
+                    {% set first = false %}
+                {% endif %}
+            {%- endfor -%}
         </ul>
     </nav>
-</header>
+</header>    
