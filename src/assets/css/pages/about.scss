@@ -26,19 +26,18 @@
     }
 
     @media (max-width: 767px) {
-        .p-about_picture {
+        &_left, &_right {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+
+        &_picture {
             width: 80%;
             align-self: center;
             border: 8px solid var(--color-accent);
             display: flex;
             margin: 0 auto;
         }
-    
-        &_left, &_right {
-            width: 100%;
-            float: none;
-            text-align: center;
-            margin: 1rem 0;
-        }
     }
-}    
+}
