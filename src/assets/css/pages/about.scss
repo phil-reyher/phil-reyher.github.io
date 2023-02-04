@@ -13,7 +13,8 @@
 .p-about_picture {
     width: 30%;
     align-self: center;
-    border: 5px solid var(--color-accent)
+    border: 5px solid var(--color-accent);
+    box-sizing: border-box;
 }
 
 @media (max-width: 767px) {
@@ -22,5 +23,6 @@
         width: 80%;
         align-self: center;
         border: 5px solid var(--color-accent);
+        box-sizing: border-box;
     }
 }
