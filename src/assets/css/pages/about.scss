@@ -5,26 +5,39 @@
     max-width: var(--max-content-width);
     margin: 0 auto;
     padding: 1rem;
-    &_content {
-    margin-top: 1.5rem;
-}
-}
 
-.p-about_picture {
-    width: 30%;
-    align-self: center;
-    border: 8px solid var(--color-accent);
-    display: flex;
-    margin: 0 auto;
-}
+    &_left {
+        width: 70%;
+        float: left;
+    }
 
-@media (max-width: 767px) {
+    &_right {
+        width: 30%;
+        float: right;
+        text-align: center;
+    }
 
-    .p-about_picture {
-        width: 80%;
+    &_picture {
+        width: 100%;
         align-self: center;
         border: 8px solid var(--color-accent);
         display: flex;
-        margin: 0 auto;
+        margin: 3rem 0 auto;
+    }
+
+    @media (max-width: 767px) {
+        &_left, &_right {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+
+        &_picture {
+            width: 80%;
+            align-self: center;
+            border: 8px solid var(--color-accent);
+            display: flex;
+            margin: 0 auto;
+        }
     }
 }
