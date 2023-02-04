@@ -13,8 +13,8 @@
 .p-about_picture {
     width: 30%;
     align-self: center;
-    border: 5px solid var(--color-accent);
-    display: block;
+    border: 8px solid var(--color-accent);
+    display: flex;
     margin: 0 auto;
 }
 
@@ -23,8 +23,8 @@
     .p-about_picture {
         width: 80%;
         align-self: center;
-        border: 5px solid var(--color-accent);
-        display: block;
+        border: 8px solid var(--color-accent);
+        display: flex;
         margin: 0 auto;
     }
 }
