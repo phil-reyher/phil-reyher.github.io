@@ -14,7 +14,8 @@
     width: 30%;
     align-self: center;
     border: 5px solid var(--color-accent);
-    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
 }
 
 @media (max-width: 767px) {
@@ -23,6 +24,7 @@
         width: 80%;
         align-self: center;
         border: 5px solid var(--color-accent);
-        box-sizing: border-box;
+        display: block;
+        margin: 0 auto;
     }
 }
