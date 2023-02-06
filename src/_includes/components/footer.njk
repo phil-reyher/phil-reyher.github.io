@@ -10,6 +10,8 @@
                 aria-label="{{ metadata[locale].source.label }}"
                 class="c-footer_icon c-icon-link c-icon-link--hover-extra"
                 href="{{ metadata[locale].source.link }}"
+                data-toggle="tooltip"
+                title="Visit my GitHub"
             >
                 {% set label = metadata[locale].source.label %}
                 {% if label == 'github' %}
