@@ -32,5 +32,8 @@ module.exports = {
         about: {
             title: `About | ${title}`,
         },
+        resources: {
+            title: `Resources | ${title}`,
+        },
     },
 };
