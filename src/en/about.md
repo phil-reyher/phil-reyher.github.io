@@ -4,7 +4,7 @@ permalink: /about/
 eleventyNavigation:
     key: about
     title: about
-    order: 2
+    order: 3
 ---
 I created this website in order document about the projects I do and what I learn during my academic journey. This hopefully teaches me proper documentation, overall good practeices and allows me to share my knowledge (although it is still quite limited at this time) and to build a portfolio. My dream is to become a data scientist, as it combines my passion for reasearch, maths, stats and programming.
 

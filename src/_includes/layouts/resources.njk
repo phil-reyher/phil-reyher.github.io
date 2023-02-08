@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-resources
+---
+
+<div class="p-resources">
+
+        <h1 class="p-resources_title">{{ resources[locale].title | capitalize }}</h1>
+
+        <div role="about" class="c-content">
+            {{ content | safe }}
+        </div>
+
+</div>
