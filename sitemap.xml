@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/phil-reyher.github.io/posts/en/first/</loc>
+    <loc>/posts/en/first/</loc>
     <lastmod>2022-01-01</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/posts/en/second/</loc>
+    <loc>/posts/en/second/</loc>
     <lastmod>2022-01-02</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/posts/en/third/</loc>
+    <loc>/posts/en/third/</loc>
     <lastmod>2022-01-03</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/posts/en/fourth/</loc>
+    <loc>/posts/en/fourth/</loc>
     <lastmod>2022-01-04</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/posts/en/fifth/</loc>
+    <loc>/posts/en/fifth/</loc>
     <lastmod>2022-01-05</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2023-02-08</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2023-02-08</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2023-02-08</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2023-02-08</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/tags/last-one/</loc>
+    <loc>/tags/last-one/</loc>
     <lastmod>2023-02-08</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/tags/style/</loc>
+    <loc>/tags/style/</loc>
     <lastmod>2023-02-08</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/tags/another-one/</loc>
+    <loc>/tags/another-one/</loc>
     <lastmod>2023-02-08</lastmod>
   </url>
   
   <url>
-    <loc>/phil-reyher.github.io/tags/tag/</loc>
+    <loc>/tags/tag/</loc>
     <lastmod>2023-02-08</lastmod>
   </url>
 </urlset>
