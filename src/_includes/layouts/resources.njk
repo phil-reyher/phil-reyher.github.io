@@ -6,13 +6,22 @@ templateClass: tmpl-resources
 <div class="p-resources">
 
         <h1 class="p-resources_title">{{ resources[locale].title | capitalize }}</h1>
+
+        <div class="p-resources_subtitle">
         Here I gather resources in the realms of mainly Statistics, Data Science and Programming, that I have found to to be useful or educational.
-        <div role="about" class="c-toc">
-            {{ content | toc | safe }}
         </div>
 
-        <div role="about" class="c-content">
-            {{ content | safe }}
+        <div class="p-resources_right">
+            <div role="resources" class="p-resources_toc">
+                <h2 class="p-resources_toctitle">{{"contents" | capitalize }}</h2>
+                {{ content | toc | safe }}
+            </div>
+        </div>
+
+        <div class="p-resources_left">
+            <div role="resources" class="p-resources-content">
+                {{ content | safe }}
+            </div>
         </div>
 
 </div>

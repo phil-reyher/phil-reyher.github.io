@@ -5,7 +5,35 @@
     max-width: var(--max-content-width);
     margin: 0 auto;
     padding: 1rem;
-    &_content {
-        margin-top: 1.5rem;
+}
+.p-resources_subtitle{
+margin-top: 1rem;
+width: 60%;
+}
+
+.p-resources_left {
+    width: 60%;
+    float: left;
+}
+
+.p-resources_right {
+    width: 30%;
+    float: right;
+}
+
+.p-resources_toc {
+    margin-top: 1rem;
+    position: fixed;
+}
+
+.p-resources-content {
+    margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+    .p-resources_left,
+    .p-resources_right {
+        width: 100%;
+        display: block;
     }
 }
