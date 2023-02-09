@@ -27,12 +27,17 @@ width: 60%;
     margin-top: 1rem;
     position: fixed;
 }
+
+.p-resources_toc h3 {
+    margin-left: 1rem;
+}
+
 .p-resources_toc a {
         background: var(--main-gradient);
         display: inline-block;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-bottom: 0.25rem;
+        margin-bottom: 5px;
     
         &:hover {
             color: var(--color-main);
