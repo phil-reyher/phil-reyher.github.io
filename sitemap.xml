@@ -52,6 +52,11 @@
   </url>
   
   <url>
+    <loc>/tags/last-one/</loc>
+    <lastmod>2023-02-09</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/style/</loc>
     <lastmod>2023-02-09</lastmod>
   </url>
@@ -63,11 +68,6 @@
   
   <url>
     <loc>/tags/tag/</loc>
-    <lastmod>2023-02-09</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/last-one/</loc>
     <lastmod>2023-02-09</lastmod>
   </url>
 </urlset>
