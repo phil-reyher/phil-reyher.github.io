@@ -24,7 +24,6 @@ Check out [markdown-it demo](https://markdown-it.github.io/).
 
 ___
 
----
 
 ***
 
