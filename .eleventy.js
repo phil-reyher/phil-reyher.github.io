@@ -5,11 +5,14 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { markdownLibrary } = require("./.markdown.js");
 const CleanCSS = require('clean-css');
+const toc = require('eleventy-plugin-toc');
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSyntaxHighlight);
     eleventyConfig.addPlugin(pluginNavigation);
+    eleventyConfig.addPlugin(toc);
+    eleventyConfig.addFilter("toc", toc);
     
 
     // https://www.11ty.dev/docs/data-deep-merge/

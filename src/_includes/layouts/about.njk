@@ -4,16 +4,16 @@ templateClass: tmpl-about
 ---
 
 <div class="p-about">
-    <div class="p-about_left">
-        <h1 class="p-about_title">{{ about[locale].title | capitalize }}</h1>
-
-        <div role="about" class="c-content">
-            {{ content | safe }}
-        </div>
-    </div>
+    <h1 class="p-about_title">{{ about[locale].title | capitalize }}</h1>
     <div class="p-about_right">
         <div class="p-about_picture">
             <img src="/static/profile.jpg" alt="Profile Picture" loading="lazy">
         </div>
     </div>
+    <div class="p-about_left">
+        <div role="about" class="c-content">
+            {{ content | safe }}
+        </div>
+    </div>
+
 </div>
