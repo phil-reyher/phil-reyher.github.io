@@ -277,11 +277,10 @@
 &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Inline &lt;code&gt;code&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Indented code&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;// Some comments
-line 1 of code
-line 2 of code
-line 3 of code
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;// Some comments&lt;br /&gt;
+line 1 of code&lt;br /&gt;
+line 2 of code&lt;br /&gt;
+line 3 of code&lt;/p&gt;
 &lt;p&gt;Block code “fences”&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Sample text here...
 &lt;/code&gt;&lt;/pre&gt;
@@ -430,8 +429,7 @@ line 3 of code
 &lt;p&gt;Inline footnote^[Text of inline footnote] definition.&lt;/p&gt;
 &lt;p&gt;Duplicated footnote reference[^second].&lt;/p&gt;
 &lt;p&gt;[^first]: Footnote &lt;strong&gt;can have markup&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;and multiple paragraphs.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and multiple paragraphs.&lt;/p&gt;
 &lt;p&gt;[^second]: Footnote text.&lt;/p&gt;
 &lt;h3 id=&quot;definition-lists&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-deflist&quot;&gt;Definition lists&lt;/a&gt; &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/en/first/#definition-lists&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
   &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
@@ -446,10 +444,8 @@ line 3 of code
 with lazy continuation.&lt;/p&gt;
 &lt;p&gt;Term 2 with &lt;em&gt;inline markup&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;:   Definition 2&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;    { some code, part of Definition 2 }
-
-Third paragraph of definition 2.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;{ some code, part of Definition 2 }&lt;/p&gt;
+&lt;p&gt;Third paragraph of definition 2.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Compact style:&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Term 1&lt;br /&gt;
 ~ Definition 1&lt;/p&gt;
