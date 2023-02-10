@@ -18,6 +18,7 @@ eleventyNavigation:
 * [Org-Mode Keybindings](https://orgmode.org/orgcard.pdf)
 ### Julia
 [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
+[Julia Introductory Course (free)](https://sylvaticus.github.io/SPMLJ/stable/index.html)
 [Julia Language a concise Tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial/)
 ### R
 * [Mixed Models with R](https://m-clark.github.io/mixed-models-with-R/)
