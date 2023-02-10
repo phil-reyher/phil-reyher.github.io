@@ -23,30 +23,6 @@ width: 60%;
     float: right;
 }
 
-.p-resources_toc {
-    margin-top: 1rem;
-    position: fixed;
-}
-
-.p-resources_toc h3 {
-    margin-left: 1rem;
-}
-
-.p-resources_toc a {
-        background: var(--main-gradient);
-        display: inline-block;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 5px;
-    
-        &:hover {
-            color: var(--color-main);
-            display: inline-block;
-            -webkit-background-clip: unset;
-            -webkit-text-fill-color: unset;
-        }
-  }
-
 .p-resources-content {
     margin-top: 1rem;
 }
