@@ -8,16 +8,21 @@ eleventyNavigation:
 ---
 
 ## Statistics and Data Science
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+* [Tidy Data](https://vita.had.co.nz/papers/tidy-data.pdf)
+* [Common Statistical Tests are Linear Models](https://lindeloev.github.io/tests-as-linear/)
+* [Statistical Thinking for the 21st Century](https://statsthinking21.github.io/statsthinking21-core-site/)
+* [An Introduction to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
 ## Machine Learning
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+* [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 ## Programming
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+* [Org-Mode Keybindings](https://orgmode.org/orgcard.pdf)
 ### Julia
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+[Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
+[Julia Language a concise Tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial/)
 ### R
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+* [Mixed Models with R](https://m-clark.github.io/mixed-models-with-R/)
+* [R for Data Science](https://r4ds.had.co.nz/index.html)
+* [Advanced R](https://adv-r.hadley.nz/index.html)
 ## People
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-## Books
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+* [Michael Clark](https://m-clark.github.io/index.html)
+* [Jonas Kristoffer Lindeløv](https://lindeloev.net/)
