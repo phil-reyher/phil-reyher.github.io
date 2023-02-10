@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItToc = require("markdown-it-toc-done-right");
 // const markdownItContainer = require("markdown-it-container");
 const fs = require("fs");
 
@@ -14,6 +15,8 @@ let markdownLibrary = markdownIt({
     permalink: true,
     permalinkClass: "direct-link",
     permalinkSymbol: linkIcon
+}).use(markdownItToc, {
+    tocClassName: 'table-of-contents'
 });
 
 module.exports = {
