@@ -1,16 +1,16 @@
-const url = process.env.URL ?? "https://example.com";
+const url = process.env.URL ?? "https://reyher.io";
 const title = "Philipp Reyher";
 
 module.exports = {
     en: {
         url,
         title,
-        description: "TODO",
+        description: "Stats & Data Science",
         feed: {
-            subtitle: "TODO",
+            subtitle: "Data Science and Statistics Projects with Philipp Reyher",
             filename: "feed.xml",
             path: "/feed/en.feed.xml",
-            id: "TODO",
+            id: "https://www.reyher.io/feed.xml",
         },
         jsonfeed: {
             path: "/feed/en.feed.json",
