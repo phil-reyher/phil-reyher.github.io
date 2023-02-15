@@ -17,10 +17,11 @@ eleventyNavigation:
 ## Programming
 * [Org-Mode Keybindings](https://orgmode.org/orgcard.pdf)
 ### Julia
-[Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
-[Julia Introductory Course (free)](https://sylvaticus.github.io/SPMLJ/stable/index.html)
-[Julia Language a concise Tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial/)
+* [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
+* [Julia Introductory Course (free)](https://sylvaticus.github.io/SPMLJ/stable/index.html)
+* [Julia Language a concise Tutorial](https://syl1.gitbook.io/julia-language-a-concise-tutorial/)
 ### R
+* [Beginning Computer Science with R](https://homerhanumat.github.io/r-notes/index.html)
 * [Mixed Models with R](https://m-clark.github.io/mixed-models-with-R/)
 * [R for Data Science](https://r4ds.had.co.nz/index.html)
 * [Advanced R](https://adv-r.hadley.nz/index.html)
