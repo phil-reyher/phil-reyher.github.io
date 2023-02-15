@@ -11,19 +11,20 @@
 }
 .p-resources_subtitle{
 margin-top: 1rem;
-width: 60%;
+width: 65%;
 }
 
 .p-resources_left {
-    width: 60%;
+    width: 70%;
     float: left;
 }
 
 .p-resources_right {
-    width: 30%;
+    width: 25%;
     float: right;
     position: sticky;
     top: 0;
+    text-align: right;
 }
 
 .p-content {
@@ -36,6 +37,7 @@ width: 60%;
         width: 100%;
         display: block;
         position: static;
+        text-align: left;
     }
     .p-resources_subtitle{
         margin-top: 1rem;
