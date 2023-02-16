@@ -2,7 +2,7 @@
     <div class="c-footer_wrapper">
        
         <div class="c-footer_item c-footer_author">
-            © {{ year.copyrightYear }} {{ metadata[locale].author.name  }}
+            © {{ metadata[locale].year.copyrightYear }} {{ metadata[locale].author.name  }}
         </div>
 
         <div class="c-footer_item c-footer_tech">
@@ -16,7 +16,4 @@
     </div>
 </footer>
 
-<script>
-    var currentYear = new Date().getFullYear();
-    document.querySelector(".c-footer_item.c-footer_author").innerHTML = "© " + currentYear + " {{ metadata[locale].author.name }}";
-</script>
+

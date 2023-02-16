@@ -35,5 +35,8 @@ module.exports = {
         resources: {
             title: `Resources | ${title}`,
         },
+        year: {
+           copyrightYear: new Date().getFullYear(),
+        },
     },
 };
