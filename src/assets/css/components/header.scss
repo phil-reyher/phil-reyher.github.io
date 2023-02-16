@@ -30,6 +30,14 @@
         padding: 0.25rem;
       }
       
+      .tooltip {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 8px;
+        background-color: #000;
+      }
      
 }
 
