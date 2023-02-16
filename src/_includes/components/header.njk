@@ -29,4 +29,15 @@
             {%- endfor -%}
         </ul>
     </nav>
+
+    <div class="c-social">
+        {% for button in buttons %}
+          <a class="c-social_icon c-icon-link c-icon-link--hover-extra" href="{{ button.link }}">
+            {% include "icons/" ~ button.icon ~ ".svg" %}
+          </a>
+        {% endfor %}
+    </div>
+      
+
+
 </header>    

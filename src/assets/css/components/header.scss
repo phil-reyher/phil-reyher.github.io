@@ -16,4 +16,11 @@
     padding: 1rem;
     gap: 1rem;
     //border-bottom: $header-border-width solid $header-border-color;
+    justify-content: space-between; /* Align contents to left and right */
+
+    .c-social{
+        margin-left: auto; /* Push to right side of container */
+     }
+     
 }
+
