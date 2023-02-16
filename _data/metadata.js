@@ -24,6 +24,7 @@ module.exports = {
             url,
             name: "Philipp Reyher",
             email: "philipp@reyher.io",
+            loc: "Münster, Germany",
         },
         posts: {
             title: `Posts | ${title}`,

@@ -9,7 +9,14 @@ templateClass: tmpl-about
         <div class="p-about_picture">
             <img src="/static/profile.jpg" alt="Profile Picture" loading="lazy">
         </div>
-        
+        <div class="p-about_descript">
+            {{ metadata[locale].author.name }}<br>
+
+            {{ metadata[locale].author.loc }}<br>
+
+            {{ metadata[locale].author.email }}<br>
+
+        </div>
     </div>
     <div class="p-about_left">
         <div role="about" class="c-content">

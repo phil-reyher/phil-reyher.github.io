@@ -24,6 +24,9 @@
         display: flex;
         margin: 1rem 0 auto;
     }
+    &_descript {
+        text-align: center;
+    }
 
     @media (max-width: 767px) {
         &_left, &_right {
