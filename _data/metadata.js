@@ -16,10 +16,6 @@ module.exports = {
             path: "/feed/en.feed.json",
             url: `${url}/feed/en.feed.json`,
         },
-        source: {
-            label: 'github',
-            link: 'https://github.com/moody-person/11ty-starter'
-        },
         author: {
             url,
             name: "Philipp Reyher",
