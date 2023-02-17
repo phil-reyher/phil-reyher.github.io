@@ -5,7 +5,7 @@ module.exports = {
     en: {
         url,
         title,
-        description: "Statistics & Data Science",
+        description: "Philipp Reyher | Statistics & Data Science",
         feed: {
             subtitle: "Data Science and Statistics Projects with Philipp Reyher",
             filename: "feed.xml",
