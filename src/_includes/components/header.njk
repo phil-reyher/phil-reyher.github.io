@@ -32,9 +32,12 @@
 
     <div class="c-social">
         {% for button in buttons %}
-          <a class="c-social_icon c-icon-link c-icon-link--hover-extra" href="{{ button.link }}" title="{{ button.tooltip }}">
+        <div class="c-icon_wrapper">
+          <a class="c-social_icon c-icon-link c-icon-link--hover-extra" href="{{ button.link }}">
             {% include "icons/" ~ button.icon ~ ".svg" %}
           </a>
+          <span class="tooltip"> {{ button.tooltip }}</span> 
+        </div> 
         {% endfor %}
     </div>
       

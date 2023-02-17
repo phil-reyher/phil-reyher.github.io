@@ -9,7 +9,6 @@
     width: 100%;
     max-width: var(--max-content-width);
     margin: 0 auto;
-
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -29,15 +28,31 @@
         align-items: center;
         padding: 0.25rem;
       }
-      
-      .tooltip {
-        position: absolute;
-        bottom: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 8px;
-        background-color: #000;
+
+
+
+      .c-icon_wrapper {
+        position: relative; /* Make the tooltip positioned relative to this element */
       }
+      
+      .c-icon_wrapper .tooltip {
+        position: absolute;
+        top: -45px;
+        left: 50%;
+        transform: translateX(-50%); /* Center the tooltip horizontally */
+        font-size: 14px;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        white-space: nowrap; 
+      }
+      
+      .c-icon_wrapper:hover .tooltip {
+        top: -50%; /* Position the tooltip above the icon */
+        opacity: 1;
+        pointer-events: auto;
+      }
+      
      
 }
 
