@@ -13,6 +13,4 @@ I am currently in my undergrads, studying a sports and exercise science degree a
 
 ## Personal
 I grew up in northern Germany and love going for walks, picking heavy stuff up and putting it down again and spending time with my lady. I have a notoriously bad taste in music and have always liked anything absurd... absurd jokes... art... philiosphy... media... and so on (I don't know why, it amuses me so much). Trying to live in line with Cynicism - not the stupid, pessimistic kind, think Diogenes... Behold! I brought you a human! Can't decide if I am a philantropist yet...
-
-
 RIP Terry Davis
