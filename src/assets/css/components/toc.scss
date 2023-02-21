@@ -1,32 +1,36 @@
 @use "../components/link";
 .p-toc {
-    margin-top: 2rem;
+    margin-top: 9.15rem;
+    position: sticky;
+    top: 5rem;
+    max-width: 12rem;
 }
 
-.p-toc ol{
+.toc ol{
 margin-top: 0.25rem;
 }
 
-.p-toc li > ol{
+
+//sepeators
+.toc > ol > li{
+    border-top: 1px solid var(--color-accent);
+}
+//second level intendation etc
+.toc li > ol{
     margin-top: -0.25rem;
     margin-bottom: 0.25rem;
     margin-left: 1rem;
     font-size: 90%;
 }
-
-.p-toc li ol a {
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-
-.p-toc a {
+.toc a {
         background: var(--main-gradient);
         display: inline-block;
         width: fit-content;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 0.25rem;
-        margin-bottom: 0.25rem;
+        //margin-top: 0.25rem;
+        //margin-bottom: 0.25rem;
+        padding: 0.25rem 0;
     
         &:hover {
             color: var(--color-main);
@@ -35,11 +39,15 @@ margin-top: 0.25rem;
             -webkit-text-fill-color: unset;
         }
   }
+//second level no padding
+  .toc li ol a {
+    padding: 0;
+  }
+
 
   @media (max-width: 767px) {
 
     .p-toc {
         margin-top: 1rem;
-        position: relative;
     }
 }
