@@ -2,20 +2,34 @@
 @forward "nav";
 @forward "logo";
 
-//$header-border-width: 4px;
-//$header-border-color: var(--color-accent);
+$header-border-width: 4px;
+$header-border-color: var(--main-gradient);
 
-.c-header {
+
+.c-header{
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+
+.c-header_bar {
+  height: $header-border-width;
+  background: $header-border-color;
+}
+.c-header_content {
+    font-size: 1.15rem;
     width: 100%;
-    max-width: var(--max-content-width);
+    max-width: var(--max-width);
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 2rem;
     gap: 1rem;
-    //border-bottom: $header-border-width solid $header-border-color;
+    background-color: var(--color-main);
     justify-content: space-between; /* Align contents to left and right */
+    border-bottom: 1px solid var(--color-accent);
     
     .c-social{
         display: flex;
