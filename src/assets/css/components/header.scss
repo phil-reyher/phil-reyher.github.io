@@ -10,34 +10,33 @@ $header-border-color: var(--main-gradient);
   position: sticky;
   top: 0;
   z-index: 3;
-  height: 5rem;
+  height: 3.5rem;
   border-bottom: 1px solid var(--color-accent);
+}
+
+.c-wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-main);
 }
 
 .c-header_bar {
   height: $header-border-width;
   background: $header-border-color;
-}
-
-.c-header_bottom{
-height: 1px;
-background-color: var(--color-accent);
-margin: 0 1rem;
+  width: 100%;
 }
 
 .c-header_content {
     font-size: 1.15rem;
     width: 100%;
     max-width: var(--max-width);
-    margin: 0 auto;
+    margin: auto;
     display: flex;
-    flex-flow: row wrap;
     align-items: center;
-    padding: 1rem 1rem;
-    padding-bottom: 21px;
+    padding: 0 1rem;
     gap: 1rem;
-    background-color: var(--color-main);
-    justify-content: space-between; /* Align contents to left and right */
+    justify-content: center; /* Align contents to left and right */
 
     
     .c-social{
@@ -50,9 +49,8 @@ margin: 0 1rem;
         display: flex;
         align-items: center;
         padding: 0.25rem;
+        margin-left: 0.25rem;
       }
-
-
 
       .c-icon_wrapper {
         position: relative; /* Make the tooltip positioned relative to this element */
@@ -60,10 +58,10 @@ margin: 0 1rem;
       
       .c-icon_wrapper .tooltip {
         position: absolute;
-        top: -45px;
+        top: -40px;
         left: 50%;
         transform: translateX(-50%); /* Center the tooltip horizontally */
-        font-size: 14px;
+        font-size: 12px;
         opacity: 0;
         pointer-events: none;
         transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -71,9 +69,9 @@ margin: 0 1rem;
       }
       
       .c-icon_wrapper:hover .tooltip {
-        top: -50%; /* Position the tooltip above the icon */
+        top: -24%; /* Position the tooltip above the icon */
         opacity: 1;
-        pointer-events: auto;
+        pointer-events: none;
       }
       
      
