@@ -22,9 +22,9 @@ module.exports = {
             email: "philipp@reyher.io",
             loc: "Münster, Germany",
         },
-        posts: {
-            title: `Posts | ${title}`,
-            description: "Blog posts list",
+        projects: {
+            title: `Projects | ${title}`,
+            description: "Project list",
         },
         about: {
             title: `About | ${title}`,
