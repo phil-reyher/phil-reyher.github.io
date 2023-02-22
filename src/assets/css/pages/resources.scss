@@ -17,7 +17,7 @@
     grid-column: 2;
     margin: 0 auto;
     border-right: 1px solid var(--color-accent);
-
+    border-left: 1px solid var(--color-accent);
 }
 
 .p-toc_mobile {
@@ -47,6 +47,7 @@ grid-column: 3;
     .p-content_wrapper{
 
         border-right: 0;
+        border-left: 0;
     
     }
 
