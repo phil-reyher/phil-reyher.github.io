@@ -1,6 +1,6 @@
 @use "../components/link";
 .p-toc {
-    margin-top: 9.15rem;
+    margin-top: 8.5rem;
     position: sticky;
     top: 5rem;
     max-width: 12rem;
@@ -45,7 +45,7 @@ margin-top: 0.25rem;
   }
 
 
-  @media (max-width: 767px) {
+  @media (max-width: 860px) {
 
     .p-toc {
         margin-top: 1rem;

@@ -29,7 +29,7 @@ grid-column: 3;
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 860px) {
     .p-resources {
         display: flex;
     }
@@ -43,7 +43,9 @@ grid-column: 3;
     }
 
     .c-content_wrapper{
-
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
         border-right: 0;
     
     }
