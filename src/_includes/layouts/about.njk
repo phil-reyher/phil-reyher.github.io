@@ -4,8 +4,9 @@ templateClass: tmpl-about
 ---
 
 <div class="p-about">
+    
     <h1 class="p-about_title">{{ about[locale].title | capitalize }}</h1>
-    <div class="p-about_right">
+    <div class="c-about_wrapper">
         <div class="p-about_picture">
             <img src="/static/profile.jpg" alt="Profile Picture" loading="lazy">
         </div>
@@ -15,13 +16,11 @@ templateClass: tmpl-about
             {{ metadata[locale].author.loc }}<br>
 
             {{ metadata[locale].author.email }}<br>
-
         </div>
     </div>
-    <div class="p-about_left">
-        <div role="about" class="c-content">
-            {{ content | safe }}
-        </div>
+
+    <div role="about" class="c-content">
+        {{ content | safe }}
     </div>
 
 </div>

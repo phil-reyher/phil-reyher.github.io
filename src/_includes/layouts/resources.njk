@@ -5,13 +5,13 @@ templateClass: tmpl-resources
 
 <div class="p-resources">
 
-    <div class="p-content_wrapper">
+    <div class="c-content_wrapper">
         <h1 class="p-resources_title">{{ resources[locale].title | capitalize }}</h1>
         <div role="subtitle" class="c-content">
         Here I gather resources in the realms of mainly Statistics, Data Science and Programming, that I have found to be useful or educational.
         </div>
 
-        <div class="p-toc_mobile">
+        <div class="c-toc_mobile">
             <div role="resources" class="p-toc">
                 <h2 class="p-resources_toctitle">{{"On this page" | capitalize }}</h2>
                 {{ content | toc | safe }}
@@ -23,7 +23,7 @@ templateClass: tmpl-resources
         </div>
     </div>
 
-    <div class="p-resources_toc">
+    <div class="c-resources_toc">
         <div role="resources" class="p-toc">
             <h2 class="p-resources_toctitle">{{"On this page" | capitalize }}</h2>
             {{ content | toc | safe }}

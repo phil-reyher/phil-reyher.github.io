@@ -10,13 +10,21 @@ $header-border-color: var(--main-gradient);
   position: sticky;
   top: 0;
   z-index: 3;
+  height: 5rem;
+  border-bottom: 1px solid var(--color-accent);
 }
-
 
 .c-header_bar {
   height: $header-border-width;
   background: $header-border-color;
 }
+
+.c-header_bottom{
+height: 1px;
+background-color: var(--color-accent);
+margin: 0 1rem;
+}
+
 .c-header_content {
     font-size: 1.15rem;
     width: 100%;
@@ -25,11 +33,12 @@ $header-border-color: var(--main-gradient);
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
+    padding-bottom: 21px;
     gap: 1rem;
     background-color: var(--color-main);
     justify-content: space-between; /* Align contents to left and right */
-    border-bottom: 1px solid var(--color-accent);
+
     
     .c-social{
         display: flex;
