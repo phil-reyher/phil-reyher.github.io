@@ -12,6 +12,8 @@ body {
   background-color: var(--color-main);
   min-height: 100vh;
   line-height: 1.5;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 .default-layout {

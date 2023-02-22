@@ -17,6 +17,7 @@
     only screen and (min-resolution: 192dpi),
     only screen and (min-resolution: 2dppx) {
         --max-content-width: 60rem;
+        --max-width: 60rem
     }
 
     --sans-serif: -apple-system, system-ui, sans-serif;
