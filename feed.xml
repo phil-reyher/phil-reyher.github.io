@@ -3,10 +3,10 @@
 	<title>Philipp Reyher</title>
 	<subtitle>Data Science and Statistics Projects with Philipp Reyher</subtitle>
 	
-	<link href="https://reyher.io/feed/en.feed.xml" rel="self"/>
+	<link href="https://reyher.io/feed.xml" rel="self"/>
 	<link href="https://reyher.io"/>
 	<updated>2022-01-05T00:00:00Z</updated>
-	<id>https://www.reyher.io/feed.xml</id>
+	<id>https://www.reyher.io/feed</id>
 	<author>
 		<name>Philipp Reyher</name>
 		<email>philipp@reyher.io</email>
