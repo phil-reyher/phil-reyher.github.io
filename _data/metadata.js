@@ -9,8 +9,8 @@ module.exports = {
         feed: {
             subtitle: "Data Science and Statistics Projects with Philipp Reyher",
             filename: "feed.xml",
-            path: "/feed/en.feed.xml",
-            id: "https://www.reyher.io/feed.xml",
+            path: "/feed.xml",
+            id: "https://www.reyher.io/feed",
         },
         jsonfeed: {
             path: "/feed/en.feed.json",
