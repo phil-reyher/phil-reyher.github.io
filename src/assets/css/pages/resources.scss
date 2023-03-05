@@ -32,10 +32,11 @@ grid-column: 3;
 @media (max-width: 860px) {
     .p-resources {
         display: flex;
+        width: auto;
     }
 
     .c-toc_mobile{
-        display: block;
+        display: flex;
     }
 
     .c-resources_toc{

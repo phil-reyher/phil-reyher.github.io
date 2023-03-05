@@ -49,5 +49,7 @@ margin-top: 0.25rem;
 
     .p-toc {
         margin-top: 1rem;
+        max-width: var(--max-content-width);
+        width: auto;
     }
 }
