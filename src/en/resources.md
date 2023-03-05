@@ -23,8 +23,10 @@ eleventyNavigation:
 ### R
 * [Beginning Computer Science with R](https://homerhanumat.github.io/r-notes/index.html)
 * [Mixed Models with R](https://m-clark.github.io/mixed-models-with-R/)
-* [R for Data Science](https://r4ds.had.co.nz/index.html)
-* [Advanced R](https://adv-r.hadley.nz/index.html)
+* [Introduction to Data Science](https://bookdown.org/ronsarafian/IntrotoDS/)
+* Switched to data.table, hadley use the tidyverse anymore...
+* [data.table in R – The Complete Beginners Guide](https://www.machinelearningplus.com/data-manipulation/datatable-in-r-complete-guide/)
+* [A data.table and dplyr tour](https://atrebas.github.io/post/2019-03-03-datatable-dplyr/)
 ## People
 * [Michael Clark](https://m-clark.github.io/index.html)
 * [Jonas Kristoffer Lindeløv](https://lindeloev.net/)
