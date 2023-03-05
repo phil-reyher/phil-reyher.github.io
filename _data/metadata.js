@@ -4,7 +4,7 @@ const title = "Philipp Reyher";
 module.exports = {
     en: {
         url,
-        title: "${title} | Data Science Portfolio",
+        title: `${title} | Data Science Portfolio`,
         description: "Philipp Reyher | Statistics & Data Science",
         feed: {
             subtitle: "Data Science and Statistics Projects with Philipp Reyher",
