@@ -1,10 +1,10 @@
 const url = process.env.URL ?? "https://reyher.io";
-const title = "Philipp Reyher | Welcome to reyher.io!";
+const title = "Philipp Reyher";
 
 module.exports = {
     en: {
         url,
-        title,
+        title: "${title} | Data Science Portfolio",
         description: "Philipp Reyher | Statistics & Data Science",
         feed: {
             subtitle: "Data Science and Statistics Projects with Philipp Reyher",
