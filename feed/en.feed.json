@@ -1,6 +1,6 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "${title} | Data Science Portfolio",
+  "title": "Philipp Reyher | Data Science Portfolio",
   "language": "en",
   "home_page_url": "https://reyher.io",
   "feed_url": "https://reyher.io/feed/en.feed.json",
