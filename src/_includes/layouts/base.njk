@@ -16,9 +16,12 @@
         {% set appleTouchIcon = "/static/apple-touch-icon.png" | url %}
         {% set favicon32 = "/static/favicon-32x32.png" | url %}
         {% set favicon16 = "/static/favicon-16x16.png" | url %}
+        {% set faviconico = "/static/favicon.ico" | url %}
         <link rel="apple-touch-icon" sizes="180x180" href="{{ appleTouchIcon }}">
         <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon32 }}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{ favicon16 }}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ faviconico }}" >
+
 
         {% if projEnv.eleventy === "production" %}
             {% set link = "/assets/css/" + csshash.indexCSS %}
