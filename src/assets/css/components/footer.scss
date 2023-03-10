@@ -11,8 +11,46 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0.5rem 2rem;
+        padding: 2rem 2rem;
         text-align: center;
 
     }
+
+        
+    .c-social{
+        display: flex;
+        align-items: center;
+
+     }
+     .c-social_icon {
+        display: flex;
+        align-items: center;
+      }
+
+      .c-icon_wrapper {
+        position: relative; /* Make the tooltip positioned relative to this element */
+        margin: 0 0.5rem;
+        padding: 1rem 0;
+
+      }
+      
+      .c-icon_wrapper .tooltip {
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%); /* Center the tooltip horizontally */
+        font-size: 12px;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        white-space: nowrap; 
+      }
+      
+      .c-icon_wrapper:hover .tooltip {
+        top: -24%; /* Position the tooltip above the icon */
+        opacity: 1;
+        pointer-events: none;
+      }
+      
+     
 }

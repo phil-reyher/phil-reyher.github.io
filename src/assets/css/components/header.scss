@@ -10,7 +10,6 @@ $header-border-color: var(--main-gradient);
   position: sticky;
   top: 0;
   z-index: 3;
-  height: 3.5rem;
   border-bottom: 1px solid var(--color-accent);
 }
 
@@ -21,59 +20,40 @@ $header-border-color: var(--main-gradient);
   background-color: var(--color-main);
 }
 
-.c-header_bar {
+.c-header-bar {
   height: $header-border-width;
   background: $header-border-color;
   width: 100%;
 }
 
-.c-header_content {
-    font-size: 1.15rem;
-    width: 100%;
-    max-width: var(--max-width);
-    margin: auto;
-    display: flex;
-    align-items: center;
-    padding: 0 1rem;
-    gap: 1rem;
-    justify-content: center; /* Align contents to left and right */
-
-    
-    .c-social{
-        display: flex;
-        margin-left: auto; /* Push to right side of container */
-        align-items: center;
-
-     }
-     .c-social_icon {
-        display: flex;
-        align-items: center;
-        padding: 0.25rem;
-        margin-left: 0.25rem;
-      }
-
-      .c-icon_wrapper {
-        position: relative; /* Make the tooltip positioned relative to this element */
-      }
-      
-      .c-icon_wrapper .tooltip {
-        position: absolute;
-        top: -40px;
-        left: 50%;
-        transform: translateX(-50%); /* Center the tooltip horizontally */
-        font-size: 12px;
-        opacity: 0;
-        pointer-events: none;
-        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        white-space: nowrap; 
-      }
-      
-      .c-icon_wrapper:hover .tooltip {
-        top: -24%; /* Position the tooltip above the icon */
-        opacity: 1;
-        pointer-events: none;
-      }
-      
-     
+.c-header-content {
+  font-size: 1.15rem;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  gap: 1rem;
+  justify-content: space-between; /* Align contents to left and right */
 }
 
+.c-content-top{
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-logo-wrapper{
+  margin-right: 1rem;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  height: 100%;
+  width: 100%;
+  min-width: 52px;
+  max-width: 120px;
+  flex-grow: 1;
+}

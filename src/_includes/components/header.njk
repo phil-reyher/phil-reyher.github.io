@@ -1,12 +1,23 @@
 <header class="c-header">
 
 <div class="c-wrapper">
-    <div class="c-header_bar"></div>
+    <div class="c-header-bar"></div>
 
-    <div class="c-header_content">
-        <a href="{{ '/' | url  }}">
-            <span class="c-logo">reyher.io</span>
-        </a>
+    <div class="c-header-content">
+
+        <div class="c-content-top">
+            <div class="c-logo-wrapper">
+            <a href="{{ '/' | url  }}">
+                <span class="c-logo">reyher.io</span>
+            </a>
+            </div>
+
+            <div class="c-search-area">
+            <input type="text" placeholder="Search..">
+            </div>
+        </div>
+
+
         <nav role="navigation" class="c-nav">
             {% set navPages = collections.all | eleventyNavigation %}
             {% set first = true %}
@@ -35,16 +46,6 @@
             </ul>
         </nav>
 
-        <div class="c-social">
-            {% for button in buttons %}
-            <div class="c-icon_wrapper">
-            <a class="c-social_icon c-icon-link c-icon-link--hover-extra" href="{{ button.link }}">
-                {% include "icons/" ~ button.icon ~ ".svg" %}
-            </a>
-            <span class="tooltip"> {{ button.tooltip }}</span> 
-            </div> 
-            {% endfor %}
-        </div>
     </div>      
     
 </div>
