@@ -51,7 +51,9 @@ $header-border-color: var(--main-gradient);
 
 
 .c-search-area{
-  padding: 0.25rem;
+  min-width: 52px;
+  max-width: 200px;
+  width: 100%;
 }
 
 input[type="text"] {
@@ -59,7 +61,4 @@ input[type="text"] {
   border-radius: 5px;
   height: 100%;
   width: 100%;
-  min-width: 52px;
-  max-width: 120px;
-  flex-grow: 1;
 }
