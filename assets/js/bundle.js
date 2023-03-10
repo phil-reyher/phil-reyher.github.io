@@ -1,1 +1,1 @@
-!function(){"use strict";console.log("%cHELLO, WORLD!!!","color: green"),window.onload=function(){const o=document.querySelector(".c-header").offsetHeight;document.documentElement.style.scrollPaddingTop=o+16+"px",console.log(o)}}();
+!function(){"use strict";console.log("%cHELLO, WORLD!!!","color: green")}();
