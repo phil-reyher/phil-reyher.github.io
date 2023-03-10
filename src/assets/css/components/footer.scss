@@ -18,39 +18,63 @@
 
         
     .c-social{
-        display: flex;
+        display: inline-flex;
         align-items: center;
 
      }
-     .c-social_icon {
-        display: flex;
-        align-items: center;
-      }
 
       .c-icon_wrapper {
-        position: relative; /* Make the tooltip positioned relative to this element */
-        margin: 0 0.5rem;
-        padding: 1rem 0;
+        line-height: 0%;
+        position: relative;
+        margin: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
+      }
+
+      span{
+        white-space: nowrap;
       }
       
       .c-icon_wrapper .tooltip {
+        
+        line-height: normal;
         position: absolute;
-        top: -40px;
-        left: 50%;
-        transform: translateX(-50%); /* Center the tooltip horizontally */
-        font-size: 12px;
+        top: 0;
+        background: var(--color-main);
+        color: #000000;
+        padding: 4px 5px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
         opacity: 0;
         pointer-events: none;
         transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        white-space: nowrap; 
+        width: auto;
+      }
+
+      .c-icon_wrapper .tooltip::before {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        background: var(--color-main);
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%) rotate(45deg);
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
       }
       
       .c-icon_wrapper:hover .tooltip {
-        top: -24%; /* Position the tooltip above the icon */
+        top: -30px;
         opacity: 1;
-        pointer-events: none;
+        visibility: visible;
+        pointer-events: auto;
       }
       
-     
+
+
 }
