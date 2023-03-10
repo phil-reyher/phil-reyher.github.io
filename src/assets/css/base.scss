@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-padding-top: 4.5rem;
+}
+@media screen and (max-width: 562px) {
+  html {
+    scroll-padding-top: 7rem;
+  }
+}
+
 html,
 body {
   margin: 0;
