@@ -2,29 +2,35 @@
 @forward "nav";
 @forward "logo";
 
-$header-border-width: 4px;
-$header-border-color: var(--main-gradient);
-
+$header-bar-height: 4px;
+$header-bar-color: var(--main-gradient);
+.c-header-bar {
+  position: fixed;
+  height: $header-bar-height;
+  background: $header-bar-color;
+  width: 100%;
+  top: 0;
+  z-index: 4;
+}
 
 .c-header{
-  position: sticky;
-  top: 0;
+  /* header bar height for top so sticky is placed at the correct pos.
+  margin-top because header-bar position fixed doesn't take up space in document
+  flow, therefore doesn't "push" the rest down.*/
+  margin-top: $header-bar-height;
   z-index: 3;
-  border-bottom: 1px solid var(--color-accent);
+  position: sticky;
+  top: $header-bar-height;
+  transition: all 0.4s ease-in-out;
 }
 
 .c-wrapper{
-  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: var(--color-main);
+  border-bottom: 1px solid var(--color-accent);
 }
 
-.c-header-bar {
-  height: $header-border-width;
-  background: $header-border-color;
-  width: 100%;
-}
 
 .c-header-content {
   font-size: 1.15rem;
