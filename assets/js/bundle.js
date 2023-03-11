@@ -1,1 +1,1 @@
-!function(){"use strict";console.log("%cHELLO, WORLD!!!","color: green")}();
+!function(){"use strict";var e=window.pageYOffset,o=document.querySelector("header"),n=o.offsetHeight+4;o.offsetTop,window.onscroll=function(){var t=window.pageYOffset;o.style.transform=e<=t?"translateY(-"+n+"px)":"none",e=t},console.log("%cHELLO, WORLD!!!","color: green")}();
