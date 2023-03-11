@@ -5,7 +5,7 @@
 $header-bar-height: 4px;
 $header-bar-color: var(--main-gradient);
 .c-header-bar {
-  position: fixed;
+  position: sticky;
   height: $header-bar-height;
   background: $header-bar-color;
   width: 100%;
@@ -14,13 +14,9 @@ $header-bar-color: var(--main-gradient);
 }
 
 .c-header{
-  /* header bar height for top so sticky is placed at the correct pos.
-  margin-top because header-bar position fixed doesn't take up space in document
-  flow, therefore doesn't "push" the rest down.*/
-  margin-top: $header-bar-height;
   z-index: 3;
   position: sticky;
-  top: $header-bar-height;
+  top:0;
   transition: all 0.4s ease-in-out;
 }
 
