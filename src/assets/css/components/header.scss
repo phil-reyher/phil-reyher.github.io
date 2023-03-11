@@ -5,19 +5,15 @@
 $header-bar-height: 4px;
 $header-bar-color: var(--main-gradient);
 .c-header-bar {
-  position: sticky;
   height: $header-bar-height;
   background: $header-bar-color;
   width: 100%;
-  top: 0;
-  z-index: 4;
 }
 
 .c-header{
   z-index: 3;
   position: sticky;
   top:0;
-  transition: all 0.4s ease-in-out;
 }
 
 .c-wrapper{
