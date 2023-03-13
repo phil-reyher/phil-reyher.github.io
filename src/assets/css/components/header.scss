@@ -35,8 +35,15 @@ $header-bar-color: var(--main-gradient);
   align-items: center;
   padding: 0.5rem 1rem;
   gap: 1rem;
-  justify-content: space-between; /* Align contents to left and right */
+  justify-content: space-between;
 }
+@media (max-width: 430px) {
+
+  .c-header-content {
+    font-size: 0.99rem
+  }
+}
+
 
 .c-content-top{
   flex-grow: 1;
@@ -49,10 +56,11 @@ $header-bar-color: var(--main-gradient);
 }
 
 
-.c-search-area{
+.c-search{
   min-width: 52px;
   max-width: 200px;
   width: 100%;
+  display: none;
 }
 
 input[type="text"] {
