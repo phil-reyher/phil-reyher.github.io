@@ -1,0 +1,12 @@
+<div class="p-projects">
+    <h1 class="p-projects_title">{{ projects[locale].title }}</h1>
+
+    {% set projectlist = collections.projects %}
+    {% if projectlist | length %}
+        <ul class="c-post-list c-posts-list--archive">
+            {% set includeImage = true %}
+            {% include "components/blog-post-items.njk" %}
+        </ul>
+    {% else %}
+    {% endif %}
+</div>

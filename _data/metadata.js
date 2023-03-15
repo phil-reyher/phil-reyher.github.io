@@ -9,7 +9,7 @@ module.exports = {
         feed: {
             subtitle: "Data Science and Statistics Projects with Philipp Reyher",
             filename: "feed.xml",
-            path: "/feed.xml",
+            path: "/feed/en.feed.xml",
             id: "https://www.reyher.io/feed",
         },
         jsonfeed: {
@@ -22,8 +22,12 @@ module.exports = {
             email: "philipp@reyher.io",
             loc: "Münster, Germany",
         },
+        posts: {
+            title: `Posts  | ${title}`,
+            description: "Blog posts list",
+        },
         projects: {
-            title: `Projects | ${title}`,
+            title: `Projects  | ${title}`,
             description: "Project list",
         },
         about: {
