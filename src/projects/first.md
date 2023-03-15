@@ -2,9 +2,7 @@
 title: Markdown demo
 description: Article styles
 date: 2022-01-01
-tags:
-  - style
-layout: layouts/post.njk
+layout: layouts/project.njk
 ---
 
 ---
