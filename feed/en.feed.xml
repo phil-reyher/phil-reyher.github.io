@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Philipp Reyher | Data Science Portfolio</title>
+	<subtitle>Data Science and Statistics Projects with Philipp Reyher</subtitle>
+	
+	<link href="https://reyher.io/feed/en.feed.xml" rel="self"/>
+	<link href="https://reyher.io"/>
+	<updated>2022-01-05T00:00:00Z</updated>
+	<id>https://www.reyher.io/feed</id>
+	<author>
+		<name>Philipp Reyher</name>
+		<email>philipp@reyher.io</email>
+	</author>
+	
+	<entry>
+		<title>This is my fifth post.</title>
+		<link href="https://reyher.io/posts/fifth/"/>
+		<updated>2022-01-05T00:00:00Z</updated>
+		<id>https://reyher.io/posts/fifth/</id>
+		<content type="html">&lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello &lt;a class=&quot;direct-link&quot; href=&quot;https://reyher.io/posts/fifth/#hello&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+
+
+&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;fifth post post&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Price&lt;/th&gt;
+&lt;th&gt;# In stock&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Juicy Apples&lt;/td&gt;
+&lt;td&gt;1.99&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;7&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bananas&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1.89&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;5234&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my fourth post.</title>
+		<link href="https://reyher.io/posts/fourth/"/>
+		<updated>2022-01-04T00:00:00Z</updated>
+		<id>https://reyher.io/posts/fourth/</id>
+		<content type="html">&lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello &lt;a class=&quot;direct-link&quot; href=&quot;https://reyher.io/posts/fourth/#hello&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+
+
+&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;fourth post post&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://google.com/&quot;&gt;google&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://duckduckgo.com/&quot;&gt;ddg&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://bing.com/&quot;&gt;bing&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://ya.ru/&quot;&gt;ya&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my third post.</title>
+		<link href="https://reyher.io/posts/third/"/>
+		<updated>2022-01-03T00:00:00Z</updated>
+		<id>https://reyher.io/posts/third/</id>
+		<content type="html">&lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello &lt;a class=&quot;direct-link&quot; href=&quot;https://reyher.io/posts/third/#hello&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+
+
+&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;third post post&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;c = &#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my second post.</title>
+		<link href="https://reyher.io/posts/second/"/>
+		<updated>2022-01-02T00:00:00Z</updated>
+		<id>https://reyher.io/posts/second/</id>
+		<content type="html">&lt;h1 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;Hello &lt;a class=&quot;direct-link&quot; href=&quot;https://reyher.io/posts/second/#hello&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; class=&quot;icon icon-tabler icon-tabler-link&quot; width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; stroke-width=&quot;2&quot; stroke=&quot;currentColor&quot; fill=&quot;none&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+  &lt;path stroke=&quot;none&quot; d=&quot;M0 0h24v24H0z&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5&quot;&gt;&lt;/path&gt;
+  &lt;path d=&quot;M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5&quot;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+
+
+&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;second post&lt;/p&gt;
+</content>
+	</entry>
+</feed>
