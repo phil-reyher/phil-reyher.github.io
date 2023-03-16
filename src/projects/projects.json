@@ -1,6 +1,7 @@
 {
     "tags": [
       "projects"
-    ]
+    ],
+    "permalink": "/projects/{{ page.fileSlug }}/"
   }
   
