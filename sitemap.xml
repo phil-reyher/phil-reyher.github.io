@@ -2,77 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://reyher.io/projects/first/</loc>
+    <loc>https://reyher.io/projects/en/first/</loc>
     <lastmod>2022-01-01</lastmod>
   </url>
   
   <url>
-    <loc>https://reyher.io/posts/second/</loc>
+    <loc>https://reyher.io/posts/en/second/</loc>
     <lastmod>2022-01-02</lastmod>
   </url>
   
   <url>
-    <loc>https://reyher.io/posts/third/</loc>
+    <loc>https://reyher.io/posts/en/third/</loc>
     <lastmod>2022-01-03</lastmod>
   </url>
   
   <url>
-    <loc>https://reyher.io/posts/fourth/</loc>
+    <loc>https://reyher.io/posts/en/fourth/</loc>
     <lastmod>2022-01-04</lastmod>
   </url>
   
   <url>
-    <loc>https://reyher.io/posts/fifth/</loc>
+    <loc>https://reyher.io/posts/en/fifth/</loc>
     <lastmod>2022-01-05</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/about/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/posts/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/projects/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/resources/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/tags/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/tags/last-one/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/tags/another-one/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/tags/tag/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/tags/projects/</loc>
-    <lastmod>2023-03-15</lastmod>
+    <lastmod>2023-03-16</lastmod>
   </url>
 </urlset>
