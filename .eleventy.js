@@ -22,10 +22,6 @@ module.exports = function(eleventyConfig) {
 
     const getReadableDate = (locale, dateObj) => DateTime.fromJSDate(dateObj, {zone: 'utc', locale}).toFormat("dd LLL yyyy");
 
-    eleventyConfig.addFilter("ru_readableDate", dateObj => {
-        return getReadableDate('ru', dateObj);
-    });
-
     eleventyConfig.addFilter("en_readableDate", dateObj => {
         return getReadableDate('en', dateObj);
     });
