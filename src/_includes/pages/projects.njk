@@ -1,5 +1,5 @@
 <div class="p-projects">
-    <h1 class="p-projects_title">{{ projects[locale].title }}</h1>
+    <h1 class="p-projects_title">{{ projects[locale].title | capitalize}}</h1>
 
     {% set projectlist = collections.projects %}
     {% if projectlist | length %}

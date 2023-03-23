@@ -1,0 +1,9 @@
+@forward "../components/post";
+@forward "../layouts/project-grid";
+
+.p-projects{
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1rem;
+}
