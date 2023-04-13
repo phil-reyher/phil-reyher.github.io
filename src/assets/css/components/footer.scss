@@ -35,6 +35,10 @@
         transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
       }
+      svg{
+        width: 32px;
+        height: 32px;
+      }
 
       span{
         white-space: nowrap;
@@ -69,7 +73,7 @@
       }
       
       .c-icon_wrapper:hover .tooltip {
-        top: -30px;
+        top: -34px;
         opacity: 1;
         visibility: visible;
         pointer-events: none;
