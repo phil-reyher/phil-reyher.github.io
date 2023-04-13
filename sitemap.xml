@@ -57,17 +57,17 @@
   </url>
   
   <url>
-    <loc>https://reyher.io/tags/last-one/</loc>
-    <lastmod>2023-04-13</lastmod>
-  </url>
-  
-  <url>
     <loc>https://reyher.io/tags/another-one/</loc>
     <lastmod>2023-04-13</lastmod>
   </url>
   
   <url>
     <loc>https://reyher.io/tags/tag/</loc>
+    <lastmod>2023-04-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://reyher.io/tags/last-one/</loc>
     <lastmod>2023-04-13</lastmod>
   </url>
   
